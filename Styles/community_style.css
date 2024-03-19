@@ -1,0 +1,264 @@
+/* Add these styles to your existing CSS or create a new stylesheet */
+
+#comm-land {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right, #4c005c, #ff0080);
+    color: #ffffff;
+    padding: 80px 20px;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.offcanvas-body {
+    background-color: #333;
+}
+
+.offcanvas-title {
+    color: #ffffff;
+}
+
+.navbar-toggler-icon {
+    background-color: #0e0e0e;
+}
+
+.com-intro {
+    text-align: center;
+}
+
+.com-heading {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.sub-head {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.com-p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.telegram-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    background: #ffffff;
+    color: #333333;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.telegram-button:hover {
+    background: #333333;
+    color: #ffffff;
+}
+
+.compic {
+    text-align: center;
+}
+
+.com-img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    border-radius: 10px;
+}
+
+/* Additional styles for better responsiveness */
+@media (max-width: 768px) {
+    #comm-land {
+        padding: 60px 20px;
+    }
+
+    .com-intro,
+    .compic {
+        padding: 20px 0;
+    }
+}
+
+/* Add these styles to your existing CSS or create a new stylesheet */
+
+.benefits-section {
+    background: linear-gradient(45deg, #ff8a00, #da1b60);
+    /* Gradient background */
+    padding: 60px 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.benefits-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, transparent 50%, rgba(255, 255, 255, 0.1) 100%);
+    animation: cycle 3s linear infinite;
+    /* Adjust animation duration as needed */
+}
+
+@keyframes cycle {
+    to {
+        background-position: 200% 0;
+    }
+}
+
+.benefits-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #ffffff;
+    /* Light text color */
+}
+
+.benefit {
+    margin-bottom: 30px;
+}
+
+.benefit-icon {
+    font-size: 2em;
+    color: #ffffff;
+    /* Light icon color */
+    margin-bottom: 20px;
+}
+
+.benefit p {
+    font-size: 1.1em;
+    color: #ffffff;
+    /* Light text color */
+}
+
+/* Additional styles for better responsiveness */
+@media (max-width: 768px) {
+    .benefits-section h2 {
+        font-size: 2em;
+    }
+
+    .benefit-icon {
+        font-size: 1.5em;
+    }
+
+    .benefit p {
+        font-size: 1em;
+    }
+}
+
+/* Add these styles to your existing CSS or create a new stylesheet */
+
+.gradient-card {
+    background: linear-gradient(45deg, #4c005c, #ff0080);
+    /* Gradient background */
+    color: #ffffff;
+    /* Light text color */
+    padding: 40px;
+    text-align: center;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Optional: Add a subtle shadow */
+}
+
+.join-heading {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.telegram-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    background: #ffffff;
+    /* Button background color */
+    color: #333333;
+    /* Button text color */
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.telegram-button:hover {
+    background: #333333;
+    /* Button background color on hover */
+    color: #ffffff;
+    /* Button text color on hover */
+}
+
+
+/* Style for the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Style for the logo */
+footer img {
+    width: 150px;
+    /* Adjust the width of the logo */
+    height: 100px;
+}
+
+/* Style for contact information */
+footer p {
+    margin-top: 10px;
+}
+
+/* Style for sections with links */
+footer div:not(:first-child) {
+    margin-top: 20px;
+    flex: 1;
+}
+
+footer h4 {
+    color: #ffcc00;
+    margin-right: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer li {
+    margin-bottom: 8px;
+}
+
+/* Style for social media icons */
+footer div:last-child {
+    margin-top: 20px;
+}
+
+footer a {
+    margin-right: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hover effect for social media icons */
+footer a:hover {
+    color: #ffcc00;
+}
+
+/* Style for the Copyright section */
+.Copyright {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    margin-top: 1px;
+}
